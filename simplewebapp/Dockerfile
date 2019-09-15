@@ -2,7 +2,7 @@
 FROM node:alpine
 
 # settingup the Working Directory
-WORKDIR '/user/app'
+WORKDIR /user/app
 
 # Preperation of the Docker image
 COPY ./package.json ./
