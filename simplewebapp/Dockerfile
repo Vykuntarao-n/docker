@@ -6,7 +6,7 @@ WORKDIR '/user/app'
 
 # Preperation of the Docker image
 COPY ./package.json ./
-RUN install npm
+RUN npm install
 COPY ./ ./ 
 
 # Command
