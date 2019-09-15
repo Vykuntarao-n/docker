@@ -1,4 +1,4 @@
-Basics of React
+Basic React comnnads
 
   ```
   npm start
