@@ -7,5 +7,12 @@ docker build .
 ```
 4. start the container
 ```
-docker run <<image id>>
+docker run -d -p 8080:8080  <<image id>>
+
+-d is ro run the image as demon
+-p expose the docker port to outside the network
+```
+4. to access the application
+```
+http://localhost:8080
 ```
