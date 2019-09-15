@@ -9,7 +9,7 @@ docker build .
 ```
 docker run -d -p 8080:8080  <<image id>>
 
--d is ro run the image as demon
+-d is to run the image as demon
 -p expose the docker port to outside the network
 ```
 4. to access the application
