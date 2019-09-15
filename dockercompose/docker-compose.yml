@@ -4,6 +4,6 @@ services:
     image: 'redis'
   node-app:
 #    restart: always
-    build: .
+    build: ./
     ports:
      - "8080:8080"
