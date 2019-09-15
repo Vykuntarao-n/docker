@@ -2,7 +2,7 @@
 FROM node:alpine
 
 # Setting up the working Directory
-WORKDIR '/app'
+WORKDIR /user/app
 
 # Prepare the image
 COPY ./package.json ./
@@ -11,4 +11,3 @@ COPY ./ ./
 
 # Docker command to start the container
 CMD ["npm" , "start" ]
-
