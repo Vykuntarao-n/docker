@@ -1,5 +1,5 @@
 # Pulling the base image
-FROM alpine
+FROM node:alpine
 
 # settingup the Working Directory
 WORKDIR '/user/app'
