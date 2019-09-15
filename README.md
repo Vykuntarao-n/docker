@@ -1,3 +1,1 @@
-Docker and Kubernetes
-
-[Wiki](https://github.com/Vykuntarao-n/dockerkubernetes/wiki)
+[Docker and Kubernetes](https://github.com/Vykuntarao-n/dockerkubernetes/wiki)
