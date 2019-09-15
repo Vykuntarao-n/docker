@@ -3,7 +3,10 @@ services:
   redis-server:
     image: 'redis'
   node-app:
+# Always restart
     restart: always
+# on-failure - Other than the Exist Code zero
+#    restart: on-failure
     build: .
     ports:
      - "8080:8080"
