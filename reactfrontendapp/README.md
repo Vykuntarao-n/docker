@@ -8,8 +8,9 @@ create-react-app client
 ```
 
 2. Just do this:
-
+```
 npx create-react-app client
+```
 
 Official docs on CRA usage with npx are available here:
 
