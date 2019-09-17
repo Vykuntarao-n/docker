@@ -18,7 +18,7 @@ https://create-react-app.dev/docs/getting-started#quick-start
 
 
 
-# Basic React comnnads
+# Basic React Commands
 
   ```
   npm start
