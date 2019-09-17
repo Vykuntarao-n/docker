@@ -48,7 +48,7 @@ We suggest that you begin by typing:
   npm start
   ```
   
-  Start the prodution grade React applictaion 
+# Start the prodution grade React applictaion 
   ```
   Build the image with the Multi stage Docker file
   docker build . -t reactfrontendapp
