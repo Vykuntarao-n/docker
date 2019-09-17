@@ -52,12 +52,12 @@ We suggest that you begin by typing:
 
   Build the image with the Multi stage Docker file
   ```
-  docker build . -t reactfrontendapp
+  docker build . -t vykuntarao1/reactfrontendapp
   ```
   
   To start the Contaier
   ```
-  docker run -p 8080:80 -d reactfrontendapp
+  docker run -p 8080:80 -d vykuntarao1/reactfrontendapp
   ```
   
 
