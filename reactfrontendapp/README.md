@@ -49,15 +49,16 @@ We suggest that you begin by typing:
   ```
   
 # Start the prodution grade React applictaion 
-  ```
-  Build the image with the Multi stage Docker file
-  docker build . -t reactfrontendapp
 
+  Build the image with the Multi stage Docker file
+  ```
+  docker build . -t reactfrontendapp
+  ```
   
   To start the Contaier
+  ```
   docker run -p 8080:80 -d reactfrontendapp
-  
-  ````
+  ```
   
 
   
